@@ -1,0 +1,11 @@
+venv/
+.idea
+__pycache__/
+tests
+.pytest_cache
+config.json
+chromedriver
+test.py
+.env
+Dockerfile
+docker-compose.yml
