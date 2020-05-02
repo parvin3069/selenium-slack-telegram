@@ -140,7 +140,7 @@ class Functions:
         now = dt.today().strftime('%d-%m-%y_%H-%M')
         return now
 
-    def save_file(self, case: str, desc: str, info: str, exc: str, group_name: str) -> NoReturn:
+    def save_file(self, case: str, desc: str, info: dict, exc: str, group_name: str) -> NoReturn:
         case_object = {
             "Case": case,
             "Description": desc,
