@@ -15,7 +15,7 @@ def set_up():
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_experimental_option("prefs", {
-        "download.default_directory": "/tmp/src/go_services",
+        "download.default_directory": "/tmp/src/slnm",
         "download.prompt_for_download": False,
         "download.directory_upgrade": True,
         "safebrowsing_for_trusted_sources_enabled": False,
